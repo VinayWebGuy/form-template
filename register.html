@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Form Template</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="box">
+        <div class="heading">Register - Form Template</div>
+        <div class="ft-group">
+            <span>Name</span>
+            <input type="text" class="ft-input">
+        </div>
+        <div class="ft-group">
+            <span>Email</span>
+            <input type="email" class="ft-input">
+        </div>
+        <div class="ft-group">
+            <span>Password</span>
+            <input type="password" class="ft-input">
+        </div>
+        <div class="ft-group">
+            <span>Mobile</span>
+            <input type="number" class="ft-input">
+        </div>
+        <div class="ft-group">
+            <span>Gender</span>
+            <div class="radio-check-div first">
+                <label for="male">Male</label>
+                <input class="ft-input ft-radio-check" id="male" name="gender" type="radio">
+            </div>
+            <div class="radio-check-div">
+                <label for="female">Female</label>
+                <input class="ft-input ft-radio-check" id="female" name="gender" type="radio">
+            </div>
+            <div class="radio-check-div">
+                <label for="others">Others</label>
+                <input class="ft-input ft-radio-check" id="others" name="gender" type="radio">
+            </div>
+        </div>
+        <div class="ft-group">
+            <span for="">Language Known</span>
+            <div class="radio-check-div first">
+                <label for="hindi">Hindi</label>
+                <input class="ft-input ft-radio-check" id="hindi" name="language" type="checkbox">
+            </div>
+            <div class="radio-check-div">
+                <label for="english">English</label>
+                <input class="ft-input ft-radio-check" id="english" name="language" type="checkbox">
+            </div>
+            <div class="radio-check-div">
+                <label for="punjabi">Punjabi</label>
+                <input class="ft-input ft-radio-check" id="punjabi" name="language" type="checkbox">
+            </div>
+        </div>
+        <div class="ft-group">
+            <span>City</span>
+            <select class="ft-input">
+                <option value="" hidden>Select One</option>
+                <option value="Karnal">Karnal</option>
+                <option value="Panipat">Panipat</option>
+                <option value="Ambala">Ambala</option>
+                <option value="Kurukshetra">Kurukshetra</option>
+                <option value="New Delhi">New Delhi</option>
+                <option value="Sonepat">Sonepat</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Ludhiana">Ludhiana</option>
+                <option value="Jalandhar">Jalandhar</option>
+            </select>
+        </div>
+        <div class="ft-group">
+            <span>Date of Birth</span>
+            <input type="date" class="ft-input">
+        </div>
+        <div class="ft-group">
+            <span>Picture</span>
+            <input type="file" accept="image/*" class="ft-input input-file">
+            <div class="upload"><i class="fa fa-upload"></i> Upload File <span class="uploaded"></span></div>
+        </div>
+        <button class="ft-button">Register</button>
+        <div class="links right">
+            <a href="login.html">Already Have an Account?</a>
+        </div>
+    </div>
+    <div class="created-by">
+        Created by Vinay Munjal
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
